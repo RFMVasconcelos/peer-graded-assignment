@@ -1,10 +1,11 @@
 README.md: guessinggame.sh
 	touch README.md
-	echo -e "#Peer-graded Assignment: Bash, Make, Git, and GitHub\n" > README.md
-	echo -e "##by Rui Vasconcelos" >> README.md
-	echo -e "\nThis file was produced by *make* on:\n" >> README.md
+	echo "#Peer-graded Assignment: Bash, Make, Git, and GitHub\n" > README.md
+	echo "##by Rui Vasconcelos\n" >> README.md
+	echo "This file was produced by *make* on:\n" >> README.md
 	date >> README.md
-	echo -e "\nThe number of lines in '<guessinggame.sh>' file is:\n" >> README.md
+	echo " \n"	
+	echo "The number of lines in '<guessinggame.sh>' file is:\n" >> README.md
 	cat guessinggame.sh | wc -l >> README.md 
 
 clean:
