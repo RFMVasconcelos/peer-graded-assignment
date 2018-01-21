@@ -2,9 +2,9 @@
 
 ## by Rui Vasconcelos
 
-This file was produced by *make* on:
+- This file was produced by *make* on:
 
-Sun 21 Jan 20:10:22 STD 2018
-The number of lines in  file is:
+Sun 21 Jan 20:13:21 STD 2018
+- The number of lines in guessinggame.sh file is:
 
 30
